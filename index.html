@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Takeup HTML</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="starter/c/takeup.css" rel="stylesheet" media="screen">
+<link href="c/site.css" rel="stylesheet" media="screen">
+</head>
+<body>
+<div class="container16">
+  <div class="row">
+    <div class="column16 navigation">
+      <a href="/" id="logo">Takeup</a>
+      <ul id="nav">
+        <li><a href="#">Section 1</a></li>
+        <li><a href="#">Section 2</a></li>
+        <li><a href="#">Section 3</a></li>
+      </ul>
+      <button id="show-navigation">+</button>
+    </div>
+  </div>
+  <div class="row">
+    <div class="column12">
+      <h1>Takeup HTML</h1>
+      <p>Takeup Html is a set of files for starting out on html + css projects. It's currently being used as an example of responsive css. This isn't really meant for general consumption.</p>
+      <p>The most bare set of css has been included with a primary focus being on reset and grids, a little smattering of typography but that's about it.</p>
+    </div>
+    <div class="column4">
+      <aside>
+        <h3>Credits</h3>
+        Various portions of this framework come from or are inspired by:
+        <ul class="disc">
+          <li>Reset.css</li>
+          <li>Skeleton CSS</li>
+          <li>1140px.com</li>
+        </ul>
+      </aside>
+    </div>
+  </div>
+  <div class="row">
+    <div class="column16">
+      <h1>Reset</h1>
+      <p>The very first thing that we do in the Takeup framework is to reset the default browser styles. The primary reason for this
+      is to have a 'clean slate' when applying further styles.  This also helps with cross browser compatibility issues.</p>
+      <p>For more detailed information go check out Eric Myers page for <a href="http://meyerweb.com/eric/tools/css/reset/">reset.css</a></p>
+
+    </div>
+
+  </div>
+  <div class="row">
+    <div class="column16">
+      <h1>Grids</h1>
+      <p>2 grids are included a 12 column grid and a 16 column grid.  Both have the same breakpoints but have different applications</p>
+      <p>Below is a list of the supported container widths:<p>
+
+       <ul>
+         <li>1140px</li>
+         <li>960px</li>
+         <li>768px</li>
+         <li>420px</li>
+         <li>300px</li>
+       </ul>
+
+    </div>
+  </div>
+  <div class="row" id="grid-examples">
+    <div class="row">
+      <div class="column4">4</div>
+      <div class="column4">4</div>
+      <div class="column4">4</div>
+      <div class="column4">4</div>
+    </div>
+    <div class="row">
+      <div class="column6">6</div>
+      <div class="column10">10</div>
+    </div>
+    <div class="row">
+      <div class="column3">3</div>
+      <div class="column10">10</div>
+      <div class="column3">3</div>
+    </div>
+    <div class="row">
+      <div class="column4">4</div>
+      <div class="column12">12</div>
+    </div>
+    <div class="row">
+      <div class="column16">16</div>
+    </div>
+  </div>
+</div>
+</body>
+<script>
+window.onload = function() {
+  var show_navigation = document.getElementById('show-navigation'),
+      hidden_navigation = document.getElementById('nav');
+
+  show_navigation.addEventListener('click', function(e) {
+    var navStyle = hidden_navigation.style.display;
+    console.log(navStyle);
+    if(navStyle == "" || navStyle == "none") {
+      console.log('should be setting block');
+      hidden_navigation.style.display = "block";
+    } else {
+      hidden_navigation.style.display = "none";
+    }
+  });
+}
+
+</script>
+</html>
