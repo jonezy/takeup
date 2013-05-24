@@ -1,5 +1,10 @@
 a {text-decoration:none;}
-.navigation {background:#eee;}
+.navigation {
+  background:#eee;
+  -webkit-border-radius: 0px 0px 5px 5px;
+  border-radius: 0px 0px 5px 5px;
+
+}
   .navigation a#logo {
     font-size:130%;
     color:#aaa;
@@ -13,7 +18,7 @@ a {text-decoration:none;}
   }
   .navigation ul {display:block;float:right;margin:0;}
   .navigation ul li {float:left;margin-left:10px;}
-  .navigation ul li a {padding:12px 14px 10px 14px;color:#777;font-weight:bold;display:block;}
+  .navigation ul li a {padding:11px 14px 11px 14px;color:#777;font-weight:bold;display:block;}
   .navigation ul li a:hover {color:#777;background:#000;}
   .navigation button {display:none;}
 
