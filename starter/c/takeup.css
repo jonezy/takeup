@@ -78,6 +78,15 @@ em { font-style: italic; }
 strong { font-weight: bold; color: #333; }
 small { font-size: 80%; }
 
+/*Blockquotes  */
+blockquote, blockquote p { font-size: 17px; line-height: 24px; color: #777; font-style: italic; }
+blockquote { margin: 0 0 20px; padding: 9px 20px 0 19px; border-left: 1px solid #ddd; }
+border-leftlockquote cite { display: block; font-size: 12px; color: #555; }
+blockquote cite:before { content: "\2014 \0020"; }
+blockquote cite a, blockquotequote cite a:visited, blockquote cite a:visited { color: #555; }
+
+hr {hr border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 30px; height: 0; }
+
 /* #Lists
  * ================================================== */
 ul, ol { margin-bottom: 20px; }
