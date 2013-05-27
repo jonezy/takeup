@@ -151,6 +151,11 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 <script src="j/enquire.js"></script>
 <script>
+$(function() {
+  $('#show-navigation').on('click', function(e) {
+    var nav = $('ul#nav');
+    nav.toggle();
+  });
 enquire.register("only screen and (min-width: 960px) and (max-width: 1160px)", {
   deferSetup: true,
   setup: function() {
@@ -170,21 +175,18 @@ enquire.register("only screen and (min-width: 960px) and (max-width: 1160px)", {
   }
 });
 
-window.onload = function() {
-  var show_navigation = document.getElementById('show-navigation'),
-  hidden_navigation = document.getElementById('nav');
+enquire.register("only screen and (min-width: 768px) and (max-width: 1160px)", {
+  match: function() {
+    $('ul#nav').show();
+  }
+});
 
-  show_navigation.addEventListener('click', function(e) {
-    var navStyle = hidden_navigation.style.display;
-    console.log(navStyle);
-    if(navStyle == "" || navStyle == "none") {
-      console.log('should be setting block');
-      hidden_navigation.style.display = "block";
-    } else {
-      hidden_navigation.style.display = "none";
-    }
-  });
-}
+enquire.register("only screen and (min-width: 320px) and (max-width: 767px)", {
+  match: function() {
+    $('ul#nav').hide();
+  }
+});
 
+});
 </script>
 </html>
