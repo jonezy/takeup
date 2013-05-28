@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<images>
+	
+	<!-- EXTERIOR IMAGES -->
+	<image>
+		<type>exterior</type>
+		<thumb>thumb_jcw_ext_1</thumb>
+		<pic>large_jcw_ext_1</pic>
+	</image>
+	
+	<image>
+		<type>exterior</type>
+		<thumb>thumb_jcw_ext_2</thumb>
+		<pic>large_jcw_ext_2</pic>
+	</image>
+	
+	<image>
+		<type>exterior</type>
+		<thumb>thumb_jcw_ext_3</thumb>
+		<pic>large_jcw_ext_3</pic>
+	</image>
+	
+	<image>
+		<type>exterior</type>
+		<thumb>thumb_jcw_ext_4</thumb>
+		<pic>large_jcw_ext_4</pic>
+	</image>
+	
+	
+	
+	<image>
+		<type>exterior</type>
+		<thumb>thumb_cooper_ext_3</thumb>
+		<pic>large_cooper_ext_3</pic>
+	</image>
+	
+	
+	<image>
+		<type>exterior</type>
+		<thumb>thumb_cooper_ext_4</thumb>
+		<pic>large_cooper_ext_4</pic>
+	</image>
+	
+	<image>
+		<type>exterior</type>
+		<thumb>thumb_cooper_ext_5</thumb>
+		<pic>large_cooper_ext_5</pic>
+	</image>
+	<image>
+		<type>exterior</type>
+		<thumb>thumb_cooper_ext_6</thumb>
+		<pic>large_cooper_ext_6</pic>
+	</image>
+	
+	
+	<image>
+		<type>exterior</type>
+		<thumb>thumb_jcw_ext_1</thumb>
+		<pic>large_jcw_ext_1</pic>
+	</image>
+	
+	<image>
+		<type>exterior</type>
+		<thumb>thumb_jcw_ext_2</thumb>
+		<pic>large_jcw_ext_2</pic>
+	</image>
+	
+	<image>
+		<type>exterior</type>
+		<thumb>thumb_jcw_ext_3</thumb>
+		<pic>large_jcw_ext_3</pic>
+	</image>
+	
+	<image>
+		<type>exterior</type>
+		<thumb>thumb_jcw_ext_4</thumb>
+		<pic>large_jcw_ext_4</pic>
+	</image>
+	
+	
+	
+	<image>
+		<type>exterior</type>
+		<thumb>thumb_cooper_ext_3</thumb>
+		<pic>large_cooper_ext_3</pic>
+	</image>
+	
+	
+	<image>
+		<type>exterior</type>
+		<thumb>thumb_cooper_ext_4</thumb>
+		<pic>large_cooper_ext_4</pic>
+	</image>
+	
+	<image>
+		<type>exterior</type>
+		<thumb>thumb_cooper_ext_5</thumb>
+		<pic>large_cooper_ext_5</pic>
+	</image>
+	<image>
+		<type>exterior</type>
+		<thumb>thumb_cooper_ext_6</thumb>
+		<pic>large_cooper_ext_6</pic>
+	</image>
+	<!-- EXTERIOR IMAGES END  -->
+	
+	
+	
+	<!-- INTERIOR IMAGES -->
+	<image>
+		<type>interior</type>
+		<thumb>thumb_jcw_int_1</thumb>
+		<pic>large_jcw_ent_1</pic>
+	</image>
+
+	<image>
+		<type>interior</type>
+		<thumb>thumb_jcw_int_2</thumb>
+		<pic>large_jcw_ent_2</pic>
+	</image>
+	
+	
+	<image>
+		<type>interior</type>
+		<thumb>thumb_jcw_int_3</thumb>
+		<pic>large_jcw_ent_3</pic>
+	</image>
+	
+	<image>
+		<type>interior</type>
+		<thumb>thumb_jcw_int_4</thumb>
+		<pic>large_jcw_ent_4</pic>
+	</image>
+	
+
+	
+	<image>
+		<type>interior</type>
+		<thumb>thumb_cooper_int_4</thumb>
+		<pic>large_cooper_int_4</pic>
+	</image>
+	
+	<image>
+		<type>interior</type>
+		<thumb>thumb_cooperS_int_4</thumb>
+		<pic>large_cooperS_int_4</pic>
+	</image>
+	
+	
+	<image>
+		<type>interior</type>
+		<thumb>thumb_cooperS_int_6</thumb>
+		<pic>large_cooperS_int_6</pic>
+	</image>
+	
+	<image>
+		<type>interior</type>
+		<thumb>thumb_cooperS_int_7</thumb>
+		<pic>large_cooperS_int_7</pic>
+	</image>
+	
+	
+	
+	<image>
+		<type>interior</type>
+		<thumb>thumb_jcw_int_1</thumb>
+		<pic>large_jcw_ent_1</pic>
+	</image>
+
+	<image>
+		<type>interior</type>
+		<thumb>thumb_jcw_int_2</thumb>
+		<pic>large_jcw_ent_2</pic>
+	</image>
+	
+	
+	<image>
+		<type>interior</type>
+		<thumb>thumb_jcw_int_3</thumb>
+		<pic>large_jcw_ent_3</pic>
+	</image>
+	
+	<image>
+		<type>interior</type>
+		<thumb>thumb_jcw_int_4</thumb>
+		<pic>large_jcw_ent_4</pic>
+	</image>
+	
+
+	
+	<image>
+		<type>interior</type>
+		<thumb>thumb_cooper_int_4</thumb>
+		<pic>large_cooper_int_4</pic>
+	</image>
+	
+	<image>
+		<type>interior</type>
+		<thumb>thumb_cooperS_int_4</thumb>
+		<pic>large_cooperS_int_4</pic>
+	</image>
+	
+	
+	<image>
+		<type>interior</type>
+		<thumb>thumb_cooperS_int_6</thumb>
+		<pic>large_cooperS_int_6</pic>
+	</image>
+	
+	<image>
+		<type>interior</type>
+		<thumb>thumb_cooperS_int_7</thumb>
+		<pic>large_cooperS_int_7</pic>
+	</image>
+	
+
+	
+
+</images>

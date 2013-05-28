@@ -19,7 +19,7 @@
       <button id="show-navigation">+</button>
     </div>
   </div>
-  <div id="bigimg" style="display:none;" class="row">
+  <div id="bigimg">
     <div class="column16" id="bigimg-inner"></div>
 
   </div>
@@ -157,7 +157,7 @@ $(function() {
     nav.toggle();
   });
 
-  enquire.register("only screen and (min-width: 960px) and (max-width: 1160px)", {
+  enquire.register("only screen and (min-width: 960px) and (max-width: 1159px)", {
     deferSetup: true,
     setup: function() {
       this.img = $('<img id="bigImg" />'); 
@@ -167,12 +167,10 @@ $(function() {
       });
     },
     match: function() {
-      $('#bigimg-inner').show();
-      $('#bigimg').show();
+      $('#bigimg-inner').css('display','block');
     },
     unmatch: function() {
       $('#bigimg-inner').hide();
-      $('#bigimg').hide();
     }
   });
 
@@ -185,6 +183,27 @@ $(function() {
   enquire.register("only screen and (min-width: 320px) and (max-width: 767px)", {
     match: function() {
       $('ul#nav').hide();
+    }
+  });
+
+  enquire.register("only screen and (min-width: 1160px)", {
+    deferSetup: true,
+    setup: function() {
+      var iframe = $('<iframe />');
+      iframe.attr('src', './_content/home/index.html');
+      iframe.attr('width', '100%');
+      iframe.attr('height', '550');
+      iframe.attr('scrolling', 'no');
+      iframe.attr('frameborder', '0');
+      $('#bigimg').append(iframe);
+
+      this.iframe = iframe;
+    },
+    match: function() {
+      $(this.iframe).css('display','block');
+    },
+    unmatch: function() {
+      $(this.iframe).css('display','none');
     }
   });
 

@@ -1,0 +1,53 @@
+<?xml version='1.0' standalone='yes'?>
+<!-- Webtrends Tag Builder Configuration File (DO NOT MODIFY) -->
+<!-- Tag Builder Version: 4.0 -->
+<!-- Created: 4/10/2012 3:16:33 PM -->
+<configuration>
+  <general>
+    <dcsid>dcshyr6u810000cpnwo6xv3l2_1y5c</dcsid>
+    <domain>statse.webtrendslive.com</domain>
+    <timezone>-5</timezone>
+    <fpcdomainsingle>true</fpcdomainsingle>
+    <fpcdomainmultiple>false</fpcdomainmultiple>
+    <fpcdomain>.mini.ca</fpcdomain>
+    <jsincludepath>/scripts/</jsincludepath>
+    <zipfilesuffix>dcshyr6u810000cpnwo6xv3l2_1y5c</zipfilesuffix>
+  </general>
+  <eventtracking>
+    <download>true</download>
+    <downloadfiletypes>xls,doc,pdf,txt,csv,zip,docx,xlsx</downloadfiletypes>
+    <anchor>true</anchor>
+    <javascript>true</javascript>
+    <mailto>true</mailto>
+    <offsite>true</offsite>
+    <formbutton>true</formbutton>
+    <imagemap>true</imagemap>
+    <onsitedomainnames>mini.ca</onsitedomainnames>
+    <onsitedomainnamesregex>false</onsitedomainnamesregex>
+    <downloadrightclick>false</downloadrightclick>
+  </eventtracking>
+  <miscellaneous>
+    <fpc>false</fpc>
+    <fpcname />
+    <adsearch>false</adsearch>
+    <adsearchparam />
+    <custommetatag>false</custommetatag>
+    <custommetatagnames />
+    <dcsidoverride>false</dcsidoverride>
+    <dcsidoverridedomainnames />
+    <dcsidoverridedcsid />
+    <smartviewttp>false</smartviewttp>
+    <assignqueryparams>false</assignqueryparams>
+    <ombcompliant>false</ombcompliant>
+    <evi>false</evi>
+    <evicookie />
+    <eviqp />
+    <evicrumb>false</evicrumb>
+    <evicrumbname />
+    <evicrumbsep />
+    <vtid>standard</vtid>
+    <vtidfrom>param</vtidfrom>
+    <vtidname />
+    <i18n>false</i18n>
+  </miscellaneous>
+</configuration>
